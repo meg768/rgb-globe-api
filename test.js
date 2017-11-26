@@ -1,9 +1,5 @@
 var API = require('./index.js');
-
-
-
 var api = new API({debug:true, id:'jbn'});
-
 
 Promise.resolve().then(() => {
     return api.color({color:'red', priority:'!', duration:3000});
