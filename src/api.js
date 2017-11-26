@@ -35,21 +35,20 @@ module.exports = class API {
         return this.request.post(options);
     }
 
-    color(params) {
-        return this.run('color', params);
+    color(options) {
+        return this.run('color', options);
     }
 
-    blink(params) {
-        return this.run('blink', params);
+    blink(options) {
+        return this.run('blink', options);
     }
 
-    flash(params) {
-        return this.run('flash', params);
-
+    flash(options) {
+        return this.run('flash', options);
     }
 
-    random(params) {
-        return this.run('random', params);
+    random(options) {
+        return this.run('random', options);
 
     }
 
