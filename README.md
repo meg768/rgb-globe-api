@@ -2,6 +2,12 @@
 
 An API to control a rgb globe
 
+## Installation
+
+````bash
+npm install rgb-globe-api --save
+````
+
 ## Usage
 
 ````javascript
