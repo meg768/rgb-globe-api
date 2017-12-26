@@ -34,5 +34,4 @@ Promise.resolve().then(() => {
     console.log(error);
 });
 
-
 ````
