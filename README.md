@@ -7,7 +7,7 @@ An API to control a rgb globe
 ````javascript
 
 var API = require('rgb-globe-api');
-var api = new API(id:'jbn'});
+var api = new API(id:'meg'});
 
 Promise.resolve().then(() => {
     return api.color({color:'red', priority:'!', duration:3000});
