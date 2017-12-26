@@ -1,6 +1,6 @@
 {
   "name": "rgb-globe-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An API to control a rgb globe",
   "main": "index.js",
   "scripts": {

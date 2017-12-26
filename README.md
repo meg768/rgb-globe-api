@@ -13,7 +13,7 @@ npm install rgb-globe-api --save
 ````javascript
 
 var API = require('rgb-globe-api');
-var api = new API(id:'meg'});
+var api = new API({id:'meg'});
 
 Promise.resolve().then(() => {
     return api.color({color:'red', priority:'!', duration:3000});
